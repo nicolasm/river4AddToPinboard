@@ -7,11 +7,12 @@ Requirements:
 
 Setup:
 - add your Pinboard user and token in [river4](https://github.com/scripting/river4) config.json:
-    {
-        "pinboardUser": "user",
-        "pinboardToken": "token"
-    }
-
+```javascript
+{
+    "pinboardUser": "user",
+    "pinboardToken": "token"
+}
+```
 - copy the addToPinboard.js in river4/callbacks/addToRiver/.
 
 You're done!
