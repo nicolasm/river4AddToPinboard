@@ -28,7 +28,7 @@ loadConfig(function() {
     var options = {
         url: link,
         description: itemFromRiver.title,
-        extended: itemFromRiver.description,
+        extended: unescape(itemFromRiver.description).replace('&nbsp;', ' ').replace('&rsquo', '\''),
         tags: 'from:river4',
 	replace: 'no',
         toread: 'no'
