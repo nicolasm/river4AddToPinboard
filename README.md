@@ -1,4 +1,4 @@
-# riverAddToPinboard
+# river4AddToPinboard
 A [river4][0] NodeJS callback script to add new incoming items to [Pinboard][1].
 
 ###Requirements
