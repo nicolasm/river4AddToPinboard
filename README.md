@@ -1,11 +1,11 @@
 # riverAddToPinboard
 A [river4][0] NodeJS callback script to add new incoming items to [Pinboard][1].
 
-##Requirements:
+###Requirements
 - [node-pinboard][2]
 - read ["How callbacks work in River4"][3]
 
-##Setup:
+###Setup
 - retrieve your API token from your [Pinboard settings][4]. 
 - add your Pinboard user and token in [river4][0] config.json:
 ```javascript
